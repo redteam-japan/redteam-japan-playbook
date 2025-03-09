@@ -1,53 +1,66 @@
+# VMware Workstationインストール
 
-[VMware Workstation ダウンロード](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)
-==**※ダウンロードするには、「broadcom」のアカウントが必要です。登録及びVMware WorkstationはFreeです。==
+[VMware Workstation ダウンロード](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro\&freeDownloads=true) \
+<mark style="color:red;">**※ダウンロードするには、「broadcom」のアカウントが必要です。登録及びVMware WorkstationはFreeです。**</mark>
 
-## VMware WorkStation インストール
+### VMware WorkStation インストール
 
-### ダウンロードしたファイルを実行します。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308231531.png" style ="width: 60%;" border="1"> </div>
+#### ダウンロードしたファイルを実行します。
 
-### 「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308231810.png" style ="width: 60%;" border="1"> </div>
+<div align="left"><img src="../assets/Pasted image 20250308231531.png" alt=""></div>
 
-### 「使用許諾契約書に同意します」にチェックして、「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308231911.png" style ="width: 60%;" border="1"> </div>
+#### 「次へ」をクリックします。
 
+![](<../assets/Pasted image 20250308231810.png>)
 
-### 「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232042.png" style ="width: 60%;" border="1"> </div>
+#### 「使用許諾契約書に同意します」にチェックして、「次へ」をクリックします。
 
-### 「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232139.png" style ="width: 60%;" border="1"> </div>
+![](<../assets/Pasted image 20250308231911.png>)
 
-### 「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232242.png" style ="width: 60%;" border="1"> </div>
+#### 「次へ」をクリックします。
 
-### 「次へ」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232344.png" style ="width: 60%;" border="1"> </div>
+![](<../assets/Pasted image 20250308232042.png>)
 
-### 「インストール」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232423.png" style ="width: 60%;" border="1"> </div>
+#### 「次へ」をクリックします。
 
-### インストール完了まで少々お待ちください。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232458.png" style ="width: 60%;" border="1"> </div>
+![](<../assets/Pasted image 20250308232139.png>)
 
-### 「完了」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250308232626.png" style ="width: 60%;" border="1"> </div>
+#### 「次へ」をクリックします。
 
-## VMware Workstation Proの実行
+![](<../assets/Pasted image 20250308232242.png>)
 
+#### 「次へ」をクリックします。
 
-### デスクトップ上にある「VMware Workstation Pro」のアイコンをダブルクリックして実行します。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250309211205.png" style ="width: 15%;" border="1"> </div>
+![](<../assets/Pasted image 20250308232344.png>)
 
+#### 「インストール」をクリックします。
 
-### 「個人利用目的でVMware Workstation 17を使用」を選択して、「続行」をクリックします。
-==**VMware Workstation Proは個人利用目的も商用目的も無料になっています。まだライセンスキーを入力するように求める場合がありますが、個人利用目的を選択して利用してかまわないです。==
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250309210948.png" style ="width: 60%;" border="1"> </div>
+![](<../assets/Pasted image 20250308232423.png>)
 
-### 「完了」をクリックします。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250309211749.png" style ="width: 60%;" border="1"> </div>
+#### インストール完了まで少々お待ちください。
 
-### これでインストール完了です。
-<div style="text-align: left;"> <img src="../assets/Pasted image 20250309211857.png" style ="width: 100%;" border="1"> </div>
+![](<../assets/Pasted image 20250308232458.png>)
+
+#### 「完了」をクリックします。
+
+![](<../assets/Pasted image 20250308232626.png>)
+
+### VMware Workstation Proの実行
+
+#### デスクトップ上にある「VMware Workstation Pro」のアイコンをダブルクリックして実行します。
+
+![](<../assets/Pasted image 20250309211205.png>)
+
+#### 「個人利用目的でVMware Workstation 17を使用」を選択して、「続行」をクリックします。
+
+\==\*\*VMware Workstation Proは個人利用目的も商用目的も無料になっています。まだライセンスキーを入力するように求める場合がありますが、個人利用目的を選択して利用してかまわないです。==
+
+![](<../assets/Pasted image 20250309210948.png>)
+
+#### 「完了」をクリックします。
+
+![](<../assets/Pasted image 20250309211749.png>)
+
+#### これでインストール完了です。
+
+![](<../assets/Pasted image 20250309211857.png>)
