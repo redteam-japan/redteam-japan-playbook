@@ -2,7 +2,6 @@
 
 本資料では、Windows 11環境でTryHackMe用のKali Linux仮想マシンをVMware上に構築する手順を説明します。初心者の方でも迷わずセットアップできるよう、画像とともに詳しく解説します。
 
-
 ### [ダウンロードリンク](https://www.kali.org/get-kali/#kali-platforms)サイトにアクセスします。
 
 ### `Virtual Machines`をクリックします。
