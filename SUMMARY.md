@@ -9,5 +9,5 @@
 
 ## MISC
 * [VMware Workstationインストール](TryHackMe/vmwareinstall.md)
-* [Kali Linuxの環境構築](tryhackme/kali-linux-setting.md)
+* [Kali Linuxの環境](tryhackme/kali-linux-setting.md)
 
