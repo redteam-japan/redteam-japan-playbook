@@ -1,6 +1,6 @@
 # Table of contents
 
-* [RedTeam PalyBook](README.md)
+* [RedTeam PlayBook](README.md)
 
 ## MISC
 
