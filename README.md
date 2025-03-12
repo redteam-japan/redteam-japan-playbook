@@ -20,7 +20,7 @@ layout:
     visible: true
 ---
 
-# RedTeam PalyBook
+# RedTeam PlayBook
 
 ### はじめに
 
