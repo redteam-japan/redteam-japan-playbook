@@ -2,7 +2,6 @@
 
 本資料では、Windows 11環境でTryHackMe用のKali Linux仮想マシンをVMware上に構築する手順を説明します。初心者の方でも迷わずセットアップできるよう、画像とともに詳しく解説します。
 
-
 ### [ダウンロードリンク](https://www.kali.org/get-kali/#kali-platforms)サイトにアクセスします。
 
 ### `Virtual Machines`をクリックします。
@@ -11,7 +10,6 @@
 
 ### `VMware`の`↓`クリックして、ファイルを保存します。
 <figure><img src="../assets/Pasted image 20250310210201.png" alt=""><figcaption></figcaption></figure>
-
 
 ## Kali Linuxの仮想マシン追加
 `Kali Linux`をダウンロードすると、拡張子が `.7z` のファイル形式 になっています。
