@@ -6,3 +6,4 @@
 
 * [VMware Workstationインストール](TryHackMe/vmwareinstall.md)
 * [Kali Linuxの環境](misc/kali-linuxno.md)
+* [TryHackMeのOpenVPN接続](misc/tryhackmevpn.md)
