@@ -2,6 +2,7 @@
 
 本資料では、Windows 11環境でTryHackMe用のKali Linux仮想マシンをVMware上に構築する手順を説明します。初心者の方でも迷わずセットアップできるよう、画像とともに詳しく解説します。
 
+
 ### [ダウンロードリンク](https://www.kali.org/get-kali/#kali-platforms)サイトにアクセスします。
 
 ### `Virtual Machines`をクリックします。
@@ -63,7 +64,7 @@
 <figure><img src="../assets/Pasted image 20250310213529.png" alt=""><figcaption></figcaption></figure>
 
 
-## Kali Linuxの設定
+## Kali Linuxの起動
 
 ### `▶`ボタンをクリックして、マシンをパワーオンします。
 <figure><img src="../assets/Pasted image 20250310213646.png" alt=""><figcaption></figcaption></figure>
@@ -72,10 +73,60 @@
 ### 起動が完了するまでに少々お待ちください。
 <figure><img src="../assets/Pasted image 20250310213717.png" alt=""><figcaption></figcaption></figure>
 
+### ログイン画面が表示されると起動完了です。
+<figure><img src="../assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
 
 ### ログイン画面が表示されたら起動完了です。ユーザー`kali` パスワード`kali`を入力してログインします。
-<figure><img src="../assets/Pasted image 20250310213754.png]" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
+
+## Kali Linuxのキーボードレイアウト変更（日本語化）
+
+### `ドラゴンアイコン`をクリックします。
+<figure><img src="../assets/Pasted image 20250312194954.png" alt=""><figcaption></figcaption></figure>
+
+### `Settings` → `Keyboard`をクリックします。
+<figure><img src="../assets/Pasted image 20250312195206.png" alt=""><figcaption></figcaption></figure>
+
+### `Layout`タブをクリックします。
+<figure><img src="../assets/Pasted image 20250312195240.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 赤い線で囲んだ部分をクリックして、ロックを解除します。
+<figure><img src="../assets/Pasted image 20250312195525.png" alt=""><figcaption></figcaption></figure>
+
+
+### `+Add`をクリックします。
+<figure><img src="../assets/Pasted image 20250312195626.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+### キーボードで`japan`をタイピングします。
+<figure><img src="../assets/Pasted image 20250312195705.png" alt=""><figcaption></figcaption></figure>
+
+### `Japanese`を選択して、`OK`をクリックします。
+<figure><img src="../assets/Pasted image 20250312195804.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### `japanese`を選択して、`↑`をクリックして一番上に移動させます。
+<figure><img src="../assets/Pasted image 20250312195854.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### `English`を選択して、`-Remove`をクリックして削除します。
+<figure><img src="../assets/Pasted image 20250312195934.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### `Close`をクリックします。
+<figure><img src="../assets/Pasted image 20250312200011.png" alt=""><figcaption></figcaption></figure>
+
+
+
+## SSHの有効化
 ### デスクトップを右クリックします。
 <figure><img src="../assets/Pasted image 20250310213838.png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +159,7 @@ Fetched 71.3 MB in 13s (5,385 kB/s)
 ```
 
 ### `ssh`を有効にします。
-`ssh`を有効にするのは選択事項です。
+
 ```shell
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ sudo systemctl enable ssh
@@ -138,7 +189,7 @@ Created symlink '/etc/systemd/system/multi-user.target.wants/ssh.service' → '/
 ```
 
 
-### sshで接続できました。
+### ターミナルソフトで`ssh`接続を試します。
 <figure><img src="../assets/Pasted image 20250310214726.png" alt=""><figcaption></figcaption></figure>
 
 
