@@ -132,6 +132,7 @@ sudo apt install -y kali-linux-large
 #### Configuring macchanger
 
 <figure><img src="../assets/Pasted image 20250318213544.png" alt=""><figcaption></figcaption></figure>
+
 #### Configuring kismet-capture-common①
 ワイヤレス向けのペンテストツール「Kismet」の設定を行います。  
 Kismetを`sudo`で動作させると問題が発生することがあるため、`kismet`グループを作成する必要があります。  
@@ -139,6 +140,7 @@ Kismetを`sudo`で動作させると問題が発生することがあるため�
 
 
 <figure><img src="../assets/Pasted image 20250318213618.png" alt=""><figcaption></figcaption></figure>
+
 #### Configuring kismet-capture-common②
   
 次に、「Users to add to the kismet group」には自分のユーザー名を入力します。
