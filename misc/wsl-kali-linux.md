@@ -2,10 +2,7 @@
 ## WSLのインストール
 
 ### コマンドプロンプトを管理者権限で実行
-<figure><img src="../assets/Pasted image 20250310210053.png" alt=""><figcaption></figcaption></figure>
-
-
-![[Pasted image 20250318210839.png]]
+<figure><img src="../assets/Pasted image 20250318210839.png" alt=""><figcaption></figcaption></figure>
 
 ### WSLの有効化
 
