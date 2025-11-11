@@ -19,10 +19,9 @@ layout:
   metadata:
     visible: true
 ---
+<meta name="google-site-verification" content="mpLY6QfZXul7QdMPlytufH6UfRHK9Nl6oDmUjKAklpc" />
 
 # RedTeam PlayBook
-
-
 
 ## RedTeam PlayBook
 
