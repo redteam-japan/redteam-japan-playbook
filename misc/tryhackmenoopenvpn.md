@@ -1,38 +1,36 @@
+# TryHackMeのOpenVPN接続
+
 TryHackMeが提供するAttackBoxには、**無料アカウントの場合、1日1時間の利用制限**があります。そのため、Kali Linux環境を自分で構築し、OpenVPNを使用してTryHackMeのネットワークに接続することで、時間の制約なく演習を進めることができます。
 
+### OpenVPNの設定ファイルのダウンロード
 
-## OpenVPNの設定ファイルのダウンロード
+#### TryHackMeサイトに接続して、`プロフィールアイコン`をクリックします。
 
-### TryHackMeサイトに接続して、`プロフィールアイコン`をクリックします。
+<figure><img src="../.gitbook/assets/Pasted image 20250312204640.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../assets/Pasted image 20250312204640.png" alt=""><figcaption></figcaption></figure>
+#### `Access`をクリックします。
 
-### `Access`をクリックします。
+<figure><img src="../.gitbook/assets/Pasted image 20250312204716.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../assets/Pasted image 20250312204716.png" alt=""><figcaption></figcaption></figure>
+#### `Download configuration file`をクリックし、OpenVPN設定ファイル（`.ovpn`）をダウンロードします。
 
+<figure><img src="../.gitbook/assets/Pasted image 20250312204819.png" alt=""><figcaption></figcaption></figure>
 
-### `Download configuration file`をクリックし、OpenVPN設定ファイル（`.ovpn`）をダウンロードします。
+#### ファイルを保存します。ファイルはKali Linux環境に移動する必要があります。
 
-<figure><img src="../assets/Pasted image 20250312204819.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312205009.png" alt=""><figcaption></figcaption></figure>
 
+### OpenVPN接続
 
+#### Kali Linux上のOpenVPNの設定ファイルを確認します。
 
-### ファイルを保存します。ファイルはKali Linux環境に移動する必要があります。
-<figure><img src="../assets/Pasted image 20250312205009.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-## OpenVPN接続
-
-### Kali Linux上のOpenVPNの設定ファイルを確認します。
 ```bash
 ls
 redteam.japan.ovpn
 ```
 
-### `sudo openvpn {.ovpnファイル}`を実行します。
+#### `sudo openvpn {.ovpnファイル}`を実行します。
+
 ```shell
 sudo openvpn redteam.japan.ovpn
 [sudo] password for kali:
@@ -78,8 +76,8 @@ sudo openvpn redteam.japan.ovpn
 
 ```
 
+#### 別のターミナルでIPアドレスを確認します。`ip a`コマンドを実行して、`tun0`インターフェースのIPアドレスを確認します。
 
-### 別のターミナルでIPアドレスを確認します。`ip a`コマンドを実行して、`tun0`インターフェースのIPアドレスを確認します。
 ```shell
 $ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -102,8 +100,3 @@ $ ip a
        valid_lft forever preferred_lft forever
 
 ```
-
-
-
-
-

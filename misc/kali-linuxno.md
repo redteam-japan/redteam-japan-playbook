@@ -1,4 +1,4 @@
-# Kali Linuxの環境
+# VMware環境でKali Linuxの設定
 
 ### Kali Linuxのダウンロード
 
@@ -8,11 +8,11 @@
 
 #### `Virtual Machines`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310210053.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310210053.png" alt=""><figcaption></figcaption></figure>
 
 #### `VMware`の`↓`クリックして、ファイルを保存します。
 
-<figure><img src="../assets/Pasted image 20250310210201.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310210201.png" alt=""><figcaption></figcaption></figure>
 
 ### Kali Linuxの仮想マシン追加
 
@@ -22,131 +22,131 @@
 
 #### ダウンロードしたファイルを展開します。
 
-<div align="left"><figure><img src="../assets/Pasted image 20250310212111.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Pasted image 20250310212111.png" alt=""><figcaption></figcaption></figure></div>
 
 #### 展開先を指定して、`展開`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310212201.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310212201.png" alt=""><figcaption></figcaption></figure>
 
 #### 解凍が完了するまで、少々お待ちください。
 
-<figure><img src="../assets/Pasted image 20250310212224.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310212224.png" alt=""><figcaption></figcaption></figure>
 
 #### （選択事項）完了したら、フォルダ名を変更します。
 
-<figure><img src="../assets/Pasted image 20250310212528.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310212528.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left"><figure><img src="../assets/Pasted image 20250310212557.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Pasted image 20250310212557.png" alt=""><figcaption></figcaption></figure></div>
 
 #### `VMware Workstation`を起動して、`仮想マシンを開く`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310212637.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310212637.png" alt=""><figcaption></figcaption></figure>
 
 #### 解凍したフォルダに移動して、`vmx`拡張子のファイルを選択し、`開く`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310212929.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310212929.png" alt=""><figcaption></figcaption></figure>
 
 #### 仮想マシンの名前およびハードウェア設定を変更します。
 
-<figure><img src="../assets/Pasted image 20250310213017.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213017.png" alt=""><figcaption></figcaption></figure>
 
 #### 仮想マシンを右クリックし、\`設定'をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310213137.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213137.png" alt=""><figcaption></figcaption></figure>
 
 #### メモリを`8GB`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310213239.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213239.png" alt=""><figcaption></figcaption></figure>
 
 #### `オプション`タブをクリックします。
 
-<figure><img src="../assets/Pasted image 20250310213318.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213318.png" alt=""><figcaption></figcaption></figure>
 
 #### 仮想マシン名を変更します。
 
-<figure><img src="../assets/Pasted image 20250310213414.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213414.png" alt=""><figcaption></figcaption></figure>
 
 #### `OK`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310213453.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213453.png" alt=""><figcaption></figcaption></figure>
 
 #### 仮想マシン名およびメモリ設定が変更されていることを確認します。
 
-<figure><img src="../assets/Pasted image 20250310213529.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213529.png" alt=""><figcaption></figcaption></figure>
 
 ### Kali Linuxの起動
 
 #### `▶`ボタンをクリックして、マシンをパワーオンします。
 
-<figure><img src="../assets/Pasted image 20250310213646.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213646.png" alt=""><figcaption></figcaption></figure>
 
 #### 起動が完了するまでに少々お待ちください。
 
-<figure><img src="../assets/Pasted image 20250310213717.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213717.png" alt=""><figcaption></figcaption></figure>
 
 #### ログイン画面が表示されると起動完了です。
 
-<figure><img src="../assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
 
 #### ログイン画面が表示されたら起動完了です。ユーザー`kali` パスワード`kali`を入力してログインします。
 
-<figure><img src="../assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213754.png" alt=""><figcaption></figcaption></figure>
 
 ### Kali Linuxのキーボードレイアウト変更（日本語化）
 
 #### `ドラゴンアイコン`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250312194954.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312194954.png" alt=""><figcaption></figcaption></figure>
 
 #### `Settings` → `Keyboard`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250312195206.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195206.png" alt=""><figcaption></figcaption></figure>
 
 #### `Layout`タブをクリックします。
 
-<figure><img src="../assets/Pasted image 20250312195240.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195240.png" alt=""><figcaption></figcaption></figure>
 
 #### 赤い線で囲んだ部分をクリックして、ロックを解除します。
 
-<figure><img src="../assets/Pasted image 20250312195525.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195525.png" alt=""><figcaption></figcaption></figure>
 
 #### `+Add`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250312195626.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195626.png" alt=""><figcaption></figcaption></figure>
 
 #### キーボードで`japan`をタイピングします。
 
-<figure><img src="../assets/Pasted image 20250312195705.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195705.png" alt=""><figcaption></figcaption></figure>
 
 #### `Japanese`を選択して、`OK`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250312195804.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195804.png" alt=""><figcaption></figcaption></figure>
 
 #### `japanese`を選択して、`↑`をクリックして一番上に移動させます。
 
-<figure><img src="../assets/Pasted image 20250312195854.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195854.png" alt=""><figcaption></figcaption></figure>
 
 #### `English`を選択して、`-Remove`をクリックして削除します。
 
-<figure><img src="../assets/Pasted image 20250312195934.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312195934.png" alt=""><figcaption></figcaption></figure>
 
 #### `Close`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250312200011.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250312200011.png" alt=""><figcaption></figcaption></figure>
 
 ### SSHの有効化
 
 #### デスクトップを右クリックします。
 
-<figure><img src="../assets/Pasted image 20250310213838.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310213838.png" alt=""><figcaption></figcaption></figure>
 
 #### `Open Terminal Here`をクリックします。
 
-<figure><img src="../assets/Pasted image 20250310214008.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310214008.png" alt=""><figcaption></figcaption></figure>
 
 #### ターミナルが開きました。
 
-<figure><img src="../assets/Pasted image 20250310214040.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310214040.png" alt=""><figcaption></figcaption></figure>
 
 #### `sudo apt update`で最新のリポジトリ情報を取得します。
 
@@ -200,4 +200,4 @@ Created symlink '/etc/systemd/system/multi-user.target.wants/ssh.service' → '/
 
 #### ターミナルソフトで`ssh`接続を試します。
 
-<figure><img src="../assets/Pasted image 20250310214726.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted image 20250310214726.png" alt=""><figcaption></figcaption></figure>
